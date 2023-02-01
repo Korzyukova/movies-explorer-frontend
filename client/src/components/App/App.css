@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+@import url(../../blocks/app/app.css);
+
+@import url(../../blocks/header/header.css);
+@import url(../../blocks/header/__logo/header__logo.css);
+
+@import url(../../blocks/promo/promo.css);
+@import url(../../blocks/promo/__logo/promo__logo.css);
+@import url(../../blocks/promo/__text/promo__text.css);
