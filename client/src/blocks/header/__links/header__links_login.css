@@ -1,0 +1,14 @@
+.header__links_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2BE080;
+    height: 32.79px;
+    width: 76px;
+    border-radius: 3px;
+}

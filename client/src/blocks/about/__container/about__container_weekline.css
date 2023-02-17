@@ -1,0 +1,4 @@
+.about__container_weekline {
+    display: flex;
+    flex-direction: row;
+}

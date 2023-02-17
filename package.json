@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Korzyukova/movies-explorer-frontend/issues"
   },
-  "homepage": "https://github.com/Korzyukova/movies-explorer-frontend#readme"
+  "homepage": "https://github.com/Korzyukova/movies-explorer-frontend#readme",
+  "dependencies": {
+    "react-router-dom": "^6.3.0"
+  }
 }

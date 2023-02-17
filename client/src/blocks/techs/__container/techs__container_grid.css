@@ -1,0 +1,13 @@
+.techs__container_grid {
+    margin: 0px;
+    padding: 0;
+    margin-top: 120px;
+    margin-left: 295px;
+    margin-right: 295px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(7, minmax(90px, 1fr));
+    list-style-type: none;
+    grid-gap: 10px 10px;
+    justify-content: center;
+}

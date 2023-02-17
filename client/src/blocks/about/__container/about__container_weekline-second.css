@@ -1,0 +1,14 @@
+.about__container_weekline-second {
+    display: flex;
+    width: 80vw;
+    background-color: #F2F2F2;
+    height: 36px;
+    margin: 0;
+    margin-top: 110px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+}

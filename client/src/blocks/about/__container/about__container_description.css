@@ -1,0 +1,6 @@
+.about__container_description {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 40px;
+}

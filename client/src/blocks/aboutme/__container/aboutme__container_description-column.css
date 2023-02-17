@@ -1,0 +1,5 @@
+.aboutme__container_description-column {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}

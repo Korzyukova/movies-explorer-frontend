@@ -1,0 +1,24 @@
+.signup__container_input {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 31vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 46px;
+    border: 0;
+    background-color: #F9F9F9;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.signup__container_input input {
+    background-color: #F9F9F9;
+}
+
+.signup__container_input ::placeholder {
+    background-color: #F9F9F9;
+}
