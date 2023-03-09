@@ -1,6 +1,6 @@
 .header__links {
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
     margin-right: 70px;
     font-size: 12px;
     font-weight: 500;

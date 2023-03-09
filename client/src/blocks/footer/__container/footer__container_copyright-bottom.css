@@ -2,4 +2,7 @@
     display: flex;
     justify-content: space-between;
     height: 56px;
+    align-items: center;
+    font-size: 15px;
+    line-height: 18.15px;
 }

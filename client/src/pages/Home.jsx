@@ -12,9 +12,9 @@ function Home() {
     <div>
       <Promo />
       <Navigation links={{
-        link1: 'https://www.reddit.com/',
-        link2: 'https://www.reddit.com/',
-        link3: 'https://www.reddit.com/',
+        link1: '#about',
+        link2: '#techs',
+        link3: '#aboutme',
       }}
       />
       <AboutProject />

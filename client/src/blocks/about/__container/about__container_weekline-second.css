@@ -1,6 +1,7 @@
 .about__container_weekline-second {
     display: flex;
-    width: 80vw;
+    /* width: 80vw; */
+    width: 912px;
     background-color: #F2F2F2;
     height: 36px;
     margin: 0;

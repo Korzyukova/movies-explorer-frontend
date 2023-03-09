@@ -1,6 +1,7 @@
 .about__container_weekline-one {
     display: flex;
-    width: 20vw;
+    /* width: 20vw; */
+    width: 228px;
     background-color: #2BE080;
     height: 36px;
     margin: 0;

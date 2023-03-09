@@ -4,7 +4,7 @@ import cat from '../../images/cat.jpg';
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className="aboutme">
+      <div className="aboutme" name="aboutme">
         <div className="aboutme__container">
           <p className="aboutme__container_name">Student</p>
           <div className="aboutme__container_line" />

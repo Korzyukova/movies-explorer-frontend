@@ -10,19 +10,18 @@ class Header extends React.Component {
   }
 
   render() {
+    const [links1, links2, links3] = this.links;
     return (
       <header className="header">
-        <img className="header__logo" alt="my logo green circle" src={logo} />
-        <div className='header__links'>
-          <a className="header__links_signup" href="https://github.com/Korzyukova">Sign Up</a>
-          <a className="header__links_login" href="https://github.com/Korzyukova">Log In</a>
+        <a href={links3}>
+          <img className="header__logo" alt="my logo green circle" src={logo} />
+        </a>
+        <div className="header__links">
+          <a className="header__links_signup" href={links1}>Sign Up</a>
+          <a className="header__links_login" href={links2}>Log In</a>
         </div>
       </header>
     );
   }
 }
 export default Header;
-
-/*
-constructor() {}
-*/
