@@ -1,0 +1,10 @@
+.photo-grid__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 29px;
+    margin-top: 14px;
+    border-bottom: 2px solid #E8E8E8;
+}

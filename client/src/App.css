@@ -79,6 +79,9 @@
 @import url(./blocks/signup/__container/signup__container_input.css);
 @import url(./blocks/signup/__container/signup__container_input-name.css);
 @import url(./blocks/signup/__container/signup__container_button.css);
+@import url(./blocks/signup/__bottom/signup__bottom.css);
+@import url(./blocks/signup/__bottom/signup__bottom-text.css);
+@import url(./blocks/signup/__bottom/signup__bottom-link.css);
 
 @import url(./blocks/searchform/searchform.css);
 @import url(./blocks/searchform/__container/searchform__container.css);
@@ -92,3 +95,13 @@
 
 @import url(./blocks/photo-grid/photo_grid.css);
 @import url(./blocks/photo-grid/__item/photo-grid__item.css);
+@import url(./blocks/photo-grid/__likeme/photo-grid__likeme.css);
+@import url(./blocks/photo-grid/__bottom/photo-grid__bottom.css);
+@import url(./blocks/photo-grid/__name/photo-grid__name.css);
+@import url(./blocks/photo-grid/__likeme/photo-grid__likeme_button.css);
+@import url(./blocks/photo-grid/__likeme/photo-grid__likeme_heart.css);
+@import url(./blocks/photo-grid/__bottom/photo-grid__bottom-time.css);
+
+@import url(./blocks/more/more.css);
+@import url(./blocks/more/more-text.css);
+@import url(./blocks/more/more-button.css);

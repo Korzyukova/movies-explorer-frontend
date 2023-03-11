@@ -26,8 +26,12 @@ class Signin extends React.Component {
             />
           </form>
           <button className="signup__container_button" type="submit">
-            Sign Up
+            Sign In
           </button>
+          <div className="signup__bottom">
+            <p className="signup__bottom-text">Have no account yet?</p>
+            <a className="signup__bottom-link" href="https://www.amazon.com/">Sign Up</a>
+          </div>
         </div>
       </div>
     );

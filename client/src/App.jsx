@@ -7,6 +7,7 @@ import Signup from './pages/Signup';
 import Signin from './pages/Signin';
 import Profile from './pages/Profile';
 import Movies from './pages/Movies';
+import SavedMovies from './pages/SavedMovies';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/signin" element={<Signin />} />
         <Route exact path="/profile" element={<Profile />} />
         <Route exact path="/movies" element={<Movies />} />
+        <Route exact path="/saved-movies" element={<SavedMovies />} />
       </Routes>
     </div>
   );

@@ -13,6 +13,8 @@ class SearchForm extends React.Component {
               type="search"
               id="search"
               name="search"
+              placeholder="Movie"
+              autoComplete="off"
             />
             <button className="searchform__container_bar-button" type="submit">
               <img className="searchform__container_bar-pic" src={find} alt="magnifying glass" />
