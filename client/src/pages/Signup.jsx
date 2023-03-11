@@ -11,7 +11,11 @@ class Signup extends React.Component {
 
           <form className="signup__container_form">
             <h1 className="signup__container_input-name">Name</h1>
-            <input className="signup__container_input" />
+            <input
+              className="signup__container_input"
+              placeholder="Name"
+              type="text"
+            />
 
             <h1 className="signup__container_input-name">E-mail</h1>
             <input
@@ -26,10 +30,15 @@ class Signup extends React.Component {
               placeholder="Password"
               type="password"
             />
+            <h1 className="signup__container_wrong">Something goes wrong</h1>
           </form>
           <button className="signup__container_button" type="submit">
             Sign Up
           </button>
+          <div className="signup__bottom">
+            <p className="signup__bottom-text">Already have an account?</p>
+            <a className="signup__bottom-link" href="/signin">Sign In</a>
+          </div>
         </div>
       </div>
     );

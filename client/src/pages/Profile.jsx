@@ -1,35 +1,33 @@
 import React from 'react';
-import logo from '../images/logo.png';
+import Header from '../components/Header';
 
 class Profile extends React.Component {
   render() {
     return (
-      <div className="signup">
-        <div className="signup__container">
-          <img className="signup__container_logo" alt="my logo green circle" src={logo} />
-          <h1 className="signup__container_header">Welcome back!</h1>
+      <>
+        <Header user />
+        <div className="profile">
 
-          <form className="signup__container_form">
+          <div>
+            <h1 className="profile_header">Hello,Tatiana!</h1>
 
-            <h1 className="signup__container_input-name">E-mail</h1>
-            <input
-              className="signup__container_input"
-              placeholder="Email"
-              type="email"
-            />
+            <div className="profile__data profile__data-name">
+              <p>Name</p>
+              <p>Tatiana</p>
+            </div>
+            <div className="profile__data">
+              <p>E-mail</p>
+              <p>pochta@google.com</p>
+            </div>
 
-            <h1 className="signup__container_input-name">Password</h1>
-            <input
-              className="signup__container_input"
-              placeholder="Password"
-              type="password"
-            />
-          </form>
-          <button className="signup__container_button" type="submit">
-            Sign Up
-          </button>
+            <div className="profile__bottom">
+              <p className="profile__bottom-text">Manage your account</p>
+              <a className="profile__bottom-link" href="/">Sign Out</a>
+            </div>
+          </div>
         </div>
-      </div>
+
+      </>
     );
   }
 }

@@ -6,10 +6,13 @@ import '../App.css';
 import Techs from '../components/Main/Techs';
 import AboutMe from '../components/Main/AboutMe';
 import Portfolio from '../components/Main/Portfolio';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
     <div>
+      <Header />
       <Promo />
       <Navigation links={{
         link1: '#about',
@@ -21,6 +24,7 @@ function Home() {
       <Techs />
       <AboutMe />
       <Portfolio />
+      <Footer />
     </div>
   );
 }

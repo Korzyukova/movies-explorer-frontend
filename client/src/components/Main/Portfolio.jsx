@@ -8,24 +8,24 @@ class Portfolio extends React.Component {
         <div className="portfolio__container">
           <p className="portfolio__container_header">Portfolio</p>
 
-          <div className="portfolio__container_site-arrow">
+          <a className="portfolio__container_site-arrow" href="https://korzyukova.github.io/how-to-learn">
             <p className="portfolio__container_site">Static site</p>
             <img className="portfolio__container_arrow" alt="arrow" src={arrow} />
-          </div>
+          </a>
 
           <div className="portfolio__container_line" />
 
-          <div className="portfolio__container_site-arrow">
+          <a className="portfolio__container_site-arrow" href="https://korzyukova.github.io/russian-travel/">
             <p className="portfolio__container_site">Adaptive site</p>
             <img className="portfolio__container_arrow" alt="arrow" src={arrow} />
-          </div>
+          </a>
 
           <div className="portfolio__container_line" />
 
-          <div className="portfolio__container_site-arrow">
+          <a className="portfolio__container_site-arrow" href="https://korzyukova.github.io/mesto/">
             <p className="portfolio__container_site">Single page application (SPA)</p>
             <img className="portfolio__container_arrow" alt="arrow" src={arrow} />
-          </div>
+          </a>
 
         </div>
       </div>

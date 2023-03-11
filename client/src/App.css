@@ -82,6 +82,7 @@
 @import url(./blocks/signup/__bottom/signup__bottom.css);
 @import url(./blocks/signup/__bottom/signup__bottom-text.css);
 @import url(./blocks/signup/__bottom/signup__bottom-link.css);
+@import url(./blocks/signup/__container/signup__container_wrong.css);
 
 @import url(./blocks/searchform/searchform.css);
 @import url(./blocks/searchform/__container/searchform__container.css);
@@ -105,3 +106,9 @@
 @import url(./blocks/more/more.css);
 @import url(./blocks/more/more-text.css);
 @import url(./blocks/more/more-button.css);
+
+@import url(./blocks/profile/profile.css);
+@import url(./blocks/profile/profile_header.css);
+@import url(./blocks/profile/profile__data/profile__data.css);
+@import url(./blocks/profile/profile__bottom/profile__bottom.css);
+@import url(./blocks/profile/profile__data/profile__data-name.css);
