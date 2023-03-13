@@ -8,3 +8,9 @@
     text-decoration: none;
     color: black;
 }
+@media (max-width: 768px) {
+    .aboutme__container_description-github {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+  }

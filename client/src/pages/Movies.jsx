@@ -3,14 +3,14 @@ import React from 'react';
 import '../App.css';
 import SearchForm from '../components/Movies/SearchForm';
 import MoviesCardList from '../components/Movies/MoviesCardList';
-import HeaderMovies from '../components/Movies/HeaderMovies';
 import Footer from '../components/Footer';
 import More from '../components/Movies/More';
+import Header from '../components/Header';
 
 function Movies() {
   return (
     <div className="movies">
-      <HeaderMovies links={['/movies', '/saved-movies', '/profile', '/']} />
+      <Header user />
       <SearchForm />
       <MoviesCardList />
       <More />

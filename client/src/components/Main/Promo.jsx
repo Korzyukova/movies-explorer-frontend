@@ -2,13 +2,6 @@ import React from 'react';
 import promologo from '../../images/promologo.png';
 
 class Promo extends React.Component {
-  links;
-
-  constructor(props) {
-    super(props);
-    this.links = props.links;
-  }
-
   render() {
     return (
       <div className="promo">

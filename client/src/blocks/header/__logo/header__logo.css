@@ -6,12 +6,11 @@
     margin-bottom: 18px;
 
   }
-  /* @media (max-width: 320px) {
+  @media (max-width: 768px) {
     .header__logo {
-      width: 103.74px;
-      height: 24.4px;
-      margin-top: 28px;
-      margin-left: 27px;
+      margin: 0;
+      padding: 0;
+      margin-left: 30px;
     }
   }
-   */
+   

@@ -1,9 +1,15 @@
 .promo {
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
     margin: 0 auto;
     background-color: #073042;
+    justify-content: space-between;
     height: 522px;
+  }
+  @media (max-width: 768px) {
+    .promo {
+    flex-direction: column-reverse;
+    align-items: center; 
+    height: 727px;
+    }
   }
   

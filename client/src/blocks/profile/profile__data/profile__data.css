@@ -1,5 +1,5 @@
 .profile__data {
-    width: 410px;
+    /* width: 410px; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;

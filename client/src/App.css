@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 @import url(./blocks/app/app.css);
 
 @import url(./blocks/header/header.css);
@@ -12,6 +14,15 @@
 @import url(./blocks/header/__links/header__links_account-around-pic.css);
 @import url(./blocks/header/__links/header__links_movies.css);
 @import url(./blocks/header/__links/header__links_saved.css);
+
+@import url(./blocks/header/__hamburger/header__hamburger.css);
+@import url(./blocks/header/__hamburger/header__hamburger_menu.css);
+@import url(./blocks/header/__hamburger/header__hamburger_menu-list.css);
+@import url(./blocks/header/__hamburger/header__hamburger_menu-listitem.css);
+@import url(./blocks/header/__hamburger/header__hamburger_button.css);
+@import url(./blocks/header/__hamburger/header__hamburger_menu-cross.css);
+@import url(./blocks/header/__hamburger/header__hamburger_shade.css);
+@import url(./blocks/header/__hamburger/header__hamburger_link.css);
 
 
 @import url(./blocks/promo/promo.css);
@@ -112,3 +123,10 @@
 @import url(./blocks/profile/profile__data/profile__data.css);
 @import url(./blocks/profile/profile__bottom/profile__bottom.css);
 @import url(./blocks/profile/profile__data/profile__data-name.css);
+@import url(./blocks/profile/profile__bottom/profile__bottom-text.css);
+@import url(./blocks/profile/profile__bottom/profile__bottom-link.css);
+@import url(./blocks/profile/profile__container.css);
+
+* {
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,19 @@
+.header__hamburger_menu {
+    width: 67vw;
+    position: fixed;
+    top: 0px;
+    left: 35vw;
+    background: white;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 5;
+}
+@media (max-width: 320px) {
+    .header__hamburger_menu {
+        width: 100vw;
+        left: 0vw;
+    }
+  }

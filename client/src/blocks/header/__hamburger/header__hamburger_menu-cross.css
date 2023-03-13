@@ -1,0 +1,11 @@
+.header__hamburger_menu-cross {
+    background: white;
+    border: none;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 22.44px;
+    right: 22.44px;
+    margin: 0;
+    padding: 0;
+}

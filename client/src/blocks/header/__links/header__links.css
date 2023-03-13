@@ -6,3 +6,14 @@
     font-weight: 500;
     line-height: 16px;
 }
+
+@media (max-width: 768px) {
+    .header__links {
+     display: none;
+     margin-right: 30px;
+    }
+
+    .header__links_on {
+        display: flex;
+    }
+  }
