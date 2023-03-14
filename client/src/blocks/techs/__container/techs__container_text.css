@@ -7,3 +7,9 @@
     line-height: 20px;
     margin-top: 26px;
 }
+@media (max-width: 500px) {
+    .techs__container_grid {
+        font-size: 12px;
+        line-height: 14.52px;
+    }
+  }

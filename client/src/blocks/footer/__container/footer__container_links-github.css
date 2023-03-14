@@ -5,3 +5,8 @@
     line-height: 15.73px;
     color: black;
 }
+@media (max-width: 500px) {
+    .footer__container_links-github  {
+       margin-top: 11px;
+    }
+  }

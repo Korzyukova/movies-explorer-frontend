@@ -8,6 +8,8 @@ import Profile from './pages/Profile';
 import Movies from './pages/Movies';
 import SavedMovies from './pages/SavedMovies';
 import Home from './pages/Home';
+import NotFound from './pages/NotFound';
+import Preloader from './components/Preloader';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route exact path="/profile" element={<Profile />} />
         <Route exact path="/movies" element={<Movies />} />
         <Route exact path="/saved-movies" element={<SavedMovies />} />
+        <Route exact path="*" element={<NotFound />} />
+        <Route exact path="/preloader" element={<Preloader />} />
       </Routes>
     </div>
   );

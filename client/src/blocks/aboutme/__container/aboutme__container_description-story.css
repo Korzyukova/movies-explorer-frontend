@@ -19,3 +19,9 @@
         margin-right: 36px;
     }
   }
+  /* @media (max-width: 500px) {
+    .aboutme__container_description-story {
+        margin-right: 14px;
+        margin-left: 14px;
+    }
+  } */

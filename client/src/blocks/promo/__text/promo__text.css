@@ -1,8 +1,7 @@
 .promo__text {
     margin: 0;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-top: 77px;
-    width: 640px;
     color: white;
     font-size: 50px;
     font-weight: 400;
@@ -15,5 +14,25 @@
       text-align: center;
       margin-top: 86px;
       margin-bottom: 141px;
+    }
+  }
+  @media (max-width: 500px) {
+    .promo__text {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      width: 94vw;
+      font-size: 31px;
+      line-height: 39px;
+    }
+  }
+  @media (max-width: 320px) {
+    .promo__text {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      width: 94vw;
+      font-size: 31px;
+      line-height: 39px;
     }
   }

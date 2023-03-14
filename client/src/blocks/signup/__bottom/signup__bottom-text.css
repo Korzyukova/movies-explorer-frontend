@@ -4,3 +4,9 @@
     font-weight: 400;
     color: #A0A0A0;
 }
+@media (max-width: 769px) {
+    .signup__bottom-text {
+        font-size: 12px;
+        line-height: 14.52px;
+    }
+  }

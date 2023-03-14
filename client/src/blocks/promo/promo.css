@@ -4,12 +4,27 @@
     background-color: #073042;
     justify-content: space-between;
     height: 522px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
   @media (max-width: 768px) {
     .promo {
     flex-direction: column-reverse;
     align-items: center; 
     height: 727px;
+    padding-top: 55px;
+    padding-bottom: 141px;
     }
   }
-  
+  @media (max-width: 500px) {
+    .promo {
+    height: 570px;
+    padding-bottom: 141px;
+    }
+  }
+  @media (max-width: 320px) {
+    .promo {
+    height: 570px;
+    padding-bottom: 103px;
+    }
+  }

@@ -1,5 +1,16 @@
 .aboutme__container_description-avatar {
-    width: 277px;
     height: 327px;
     border-radius: 20px;
+    width: 22vw;
+    height: fit-content;
 }
+@media (max-width: 768px) {
+    .aboutme__container_description-avatar {
+        width: 36vw;
+    }
+  }
+@media (max-width: 500px) {
+    .aboutme__container_description-avatar {
+        width: 95vw;
+    }
+  }

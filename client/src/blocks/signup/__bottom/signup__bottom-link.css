@@ -5,3 +5,9 @@
     color: #3456F3;
     text-decoration: none;
 }
+@media (max-width: 769px) {
+    .signup__bottom-link {
+        font-size: 12px;
+        line-height: 14.52px;
+    }
+  }
