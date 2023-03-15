@@ -1,5 +1,3 @@
-# movies-explorer-frontend
-
 Привет
 
 
