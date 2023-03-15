@@ -1,3 +1,7 @@
 Привет
+
+
 Ссылка на макет :
-https://www.figma.com/file/rNtaqKwArzMDMYKtKXUhjn/Diploma-(Copy)?t=FR8hmkqyVINtfHxW-6
+
+
+https://drive.google.com/file/d/1RUKBb28r5g3ZrUCFHbztBy0uTo99MfGP/view?usp=share_link
