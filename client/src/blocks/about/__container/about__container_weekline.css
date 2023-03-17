@@ -4,13 +4,15 @@
     justify-content: center;
     margin-bottom: 110px;
 }
+
 @media (max-width: 768px) {
     .about__container_weekline {
         margin-bottom: 100px;
     }
-  }
+}
+
 @media (max-width: 500px) {
     .about__container_weekline {
         margin-bottom: 69px;
     }
-  }
+}

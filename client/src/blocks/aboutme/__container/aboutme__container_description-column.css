@@ -3,8 +3,9 @@
     flex-direction: column;
     width: 47vw;
 }
+
 @media (max-width: 500px) {
     .aboutme__container_description-column {
         width: 95vw;
     }
-  }
+}

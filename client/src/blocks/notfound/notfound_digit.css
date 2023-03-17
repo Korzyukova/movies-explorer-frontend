@@ -6,11 +6,12 @@
     padding: 0;
     margin-top: 246px;
 }
+
 @media (max-width: 768px) {
     .notfound_digit {
         margin-top: 408px;
     }
-  } 
+}
 
 @media (max-width: 500px) {
     .notfound_digit {
@@ -19,4 +20,4 @@
         line-height: 96.82px;
         margin-top: 329px;
     }
-  } 
+}

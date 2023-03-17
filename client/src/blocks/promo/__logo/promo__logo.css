@@ -1,21 +1,23 @@
 .promo__logo {
+  margin: 0;
+  padding: 0;
+  height: 310px;
+  /* margin-right: 70px; */
+  margin-top: 77px;
+}
+
+@media (max-width: 768px) {
+  .promo__logo {
     margin: 0;
     padding: 0;
-    height: 310px;
-    /* margin-right: 70px; */
-    margin-top: 77px;
+    height: 300px;
   }
-  @media (max-width: 768px) {
-    .promo__logo {
-      margin: 0;
-      padding: 0;
-      height: 300px;
-    }
+}
+
+@media (max-width: 320px) {
+  .promo__logo {
+    margin: 0;
+    padding: 0;
+    height: 36vh;
   }
-  @media (max-width: 320px) {
-    .promo__logo {
-      margin: 0;
-      padding: 0;
-      height: 36vh;
-    }
-  }
+}

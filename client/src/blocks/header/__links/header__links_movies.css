@@ -8,8 +8,9 @@
     padding: 0;
     margin-right: 81px;
 }
+
 .header__links_movies:hover {
     font-weight: 600;
     cursor: pointer;
     text-decoration: underline;
-  }
+}

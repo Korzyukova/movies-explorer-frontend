@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .photo-grid__likeme_heart:hover {
     cursor: pointer;
-  }
+}

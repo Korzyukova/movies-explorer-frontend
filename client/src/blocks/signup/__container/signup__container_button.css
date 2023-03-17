@@ -25,6 +25,7 @@
     width: 81vw;
   }
 }
+
 .signup__container_button:hover {
   opacity: 80%;
   cursor: pointer;

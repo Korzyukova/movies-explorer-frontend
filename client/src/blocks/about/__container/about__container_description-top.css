@@ -6,9 +6,9 @@
     margin-bottom: 26px;
     margin-top: 70px;
 }
+
 @media (max-width: 500px) {
     .about__container_description-top {
         margin-top: 60px;
     }
-  }
-
+}

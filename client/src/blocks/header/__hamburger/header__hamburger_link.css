@@ -2,7 +2,8 @@
     text-decoration: none;
     color: black;
 }
+
 .header__hamburger_link:hover {
     text-decoration: underline;
     cursor: pointer;
-  }
+}

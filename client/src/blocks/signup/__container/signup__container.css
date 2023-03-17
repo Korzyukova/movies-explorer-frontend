@@ -1,20 +1,22 @@
 .signup__container {
-    width: 32vw;
+  width: 32vw;
 }
+
 @media (max-width: 768px) {
-    .signup__container  {
+  .signup__container {
     width: 51vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    }
-  } 
-  @media (max-width: 500px) {
-    .signup__container  {
+  }
+}
+
+@media (max-width: 500px) {
+  .signup__container {
     width: 51vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    }
-  } 
+  }
+}

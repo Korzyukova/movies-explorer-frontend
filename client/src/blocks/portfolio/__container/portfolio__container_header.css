@@ -8,8 +8,9 @@
     color: #A0A0A0;
     margin-top: 91px;
 }
+
 @media (max-width: 500px) {
     .portfolio__container_header {
         margin-top: 5px;
     }
-  }
+}

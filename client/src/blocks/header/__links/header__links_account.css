@@ -11,8 +11,9 @@
     margin: 0;
     padding: 0;
 }
+
 .header__links_account:hover {
     font-weight: 600;
     cursor: pointer;
     text-decoration: underline;
-  }
+}

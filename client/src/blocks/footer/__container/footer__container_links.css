@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: row;
 }
+
 @media (max-width: 500px) {
-    .footer__container_links  {
-       flex-direction: column;
-       align-items: center;
+    .footer__container_links {
+        flex-direction: column;
+        align-items: center;
     }
-  }
+}

@@ -12,8 +12,9 @@
     padding: 0;
     margin-right: 50px;
 }
+
 .header__links_saved:hover {
     font-weight: 600;
     cursor: pointer;
     text-decoration: underline;
-  }
+}

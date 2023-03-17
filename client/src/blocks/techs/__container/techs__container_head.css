@@ -7,8 +7,9 @@
     line-height: 58px;
     margin-top: 90px;
 }
+
 @media (max-width: 500px) {
     .techs__container_head {
         font-size: 30px;
     }
-  }
+}

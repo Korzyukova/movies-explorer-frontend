@@ -1,19 +1,21 @@
 .signup__bottom {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 232px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 232px;
 }
+
 @media (max-width: 900px) {
-    .signup__bottom  {
+  .signup__bottom {
     width: 51vw;
-    }
-  } 
-  @media (max-width: 500px) {
-    .signup__bottom {
+  }
+}
+
+@media (max-width: 500px) {
+  .signup__bottom {
     width: 81vw;
-    }
-  } 
+  }
+}
