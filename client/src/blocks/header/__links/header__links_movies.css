@@ -1,8 +1,4 @@
 .header__links_movies {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; */
     text-decoration: none;
     color: black;
     font-size: 14px;
@@ -12,3 +8,8 @@
     padding: 0;
     margin-right: 81px;
 }
+.header__links_movies:hover {
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+  }

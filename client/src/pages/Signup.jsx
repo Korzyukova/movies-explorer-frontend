@@ -6,7 +6,9 @@ class Signup extends React.Component {
     return (
       <div className="signup">
         <div className="signup__container">
-          <img className="signup__container_logo" alt="my logo green circle" src={logo} />
+          <a href="/">
+            <img className="signup__container_logo" alt="my logo green circle" src={logo} />
+          </a>
           <h1 className="signup__container_header">Welcome!</h1>
 
           <form className="signup__container_form">
