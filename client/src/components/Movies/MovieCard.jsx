@@ -20,9 +20,9 @@ class movieCard extends React.Component {
         />
         <div className="photo-grid__bottom">
           <h2 className="photo-grid__name">{this.movie.title}</h2>
-          <div className="photo-grid__likeme">
+          <button className="photo-grid__likeme" type="button">
             <CardButton liked={this.liked} savedMovies={this.savedMovies} />
-          </div>
+          </button>
         </div>
         <p className="photo-grid__bottom-time">{this.movie.length}</p>
       </li>

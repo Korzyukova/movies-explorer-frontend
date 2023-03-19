@@ -12,7 +12,7 @@
     z-index: 5;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
     .header__hamburger_menu {
         width: 100vw;
         left: 0vw;

@@ -4,7 +4,7 @@ import logo from '../images/logo.png';
 class Signin extends React.Component {
   render() {
     return (
-      <div className="signup">
+      <section className="signup">
         <div className="signup__container">
           <a href="/">
             <img className="signup__container_logo" alt="my logo green circle" src={logo} />
@@ -27,7 +27,7 @@ class Signin extends React.Component {
               type="password"
             />
           </form>
-          <button className="signup__container_button" type="submit">
+          <button className="signup__container_button-signin" type="submit">
             Sign In
           </button>
           <div className="signup__bottom">
@@ -35,7 +35,7 @@ class Signin extends React.Component {
             <a className="signup__bottom-link" href="/signup">Sign Up</a>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

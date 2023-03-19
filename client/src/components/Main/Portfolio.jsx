@@ -4,7 +4,7 @@ import arrow from '../../images/arrow.png';
 class Portfolio extends React.Component {
   render() {
     return (
-      <div className="portfolio">
+      <section className="portfolio">
         <div className="portfolio__container">
           <p className="portfolio__container_header">Portfolio</p>
 
@@ -28,7 +28,7 @@ class Portfolio extends React.Component {
           </a>
 
         </div>
-      </div>
+      </section>
     );
   }
 }

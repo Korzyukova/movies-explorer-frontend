@@ -11,3 +11,6 @@
     background-color: #F9F9F9;
     border: none;
 }
+.more-button:hover {
+cursor: pointer;
+}

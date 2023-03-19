@@ -19,7 +19,7 @@ class SearchForm extends React.Component {
       });
     };
     return (
-      <div className="searchform">
+      <section className="searchform">
         <div className="searchform__container">
           <form className="searchform__container_bar">
             <input
@@ -29,6 +29,7 @@ class SearchForm extends React.Component {
               name="search"
               placeholder="Movie"
               autoComplete="off"
+              required
             />
             <button className="searchform__container_bar-button" type="submit">
               <img className="searchform__container_bar-pic" src={find} alt="magnifying glass" />
@@ -47,7 +48,7 @@ class SearchForm extends React.Component {
             </button>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

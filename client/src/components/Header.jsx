@@ -8,6 +8,7 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.user = props.user;
+    this.color = props.color;
     this.state = {
       hamburgerOpen: false,
     };
@@ -16,7 +17,7 @@ class Header extends React.Component {
   render() {
     const { hamburgerOpen } = this.state;
     return (
-      <>
+      <div className={`header__container ${this.color ? 'header__container_color' : ''}`}>
         {this.user
           ? (
             <header className="header__movies">
@@ -69,7 +70,7 @@ class Header extends React.Component {
               </>
             )
           }
-      </>
+      </div>
     );
   }
 }

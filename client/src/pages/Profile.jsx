@@ -6,7 +6,7 @@ class Profile extends React.Component {
     return (
       <>
         <Header user />
-        <div className="profile">
+        <section className="profile">
 
           <div className="profile__container">
             <h1 className="profile_header">Hello,Tatiana!</h1>
@@ -25,7 +25,7 @@ class Profile extends React.Component {
               <a className="profile__bottom-link" href="/">Sign Out</a>
             </div>
           </div>
-        </div>
+        </section>
 
       </>
     );

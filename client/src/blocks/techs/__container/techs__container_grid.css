@@ -8,15 +8,12 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 100px;
+    width: 89vw;
 
 }
 
-@media (max-width: 737px) {
+@media (max-width: 775px) {
     .techs__container_grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-        grid-gap: 10px 10px;
-        margin-top: 62px;
-        margin-bottom: 70px;
+        justify-content: flex-start;
     }
 }

@@ -8,12 +8,12 @@ import Header from '../components/Header';
 
 function SavedMovies() {
   return (
-    <div className="movies">
+    <main className="movies">
       <Header user />
       <SearchForm />
       <MoviesCardList savedMovies />
       <Footer />
-    </div>
+    </main>
   );
 }
 

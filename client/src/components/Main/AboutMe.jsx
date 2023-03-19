@@ -4,7 +4,7 @@ import cat from '../../images/cat.jpg';
 class AboutMe extends React.Component {
   render() {
     return (
-      <div className="aboutme" id="aboutme">
+      <section className="aboutme" id="aboutme">
         <div className="aboutme__container">
           <p className="aboutme__container_name">Student</p>
           <div className="aboutme__container_line" />
@@ -30,12 +30,12 @@ class AboutMe extends React.Component {
                   </li>
                 </ul>
               </p>
-              <a className="aboutme__container_description-github" href="https://github.com/Korzyukova">Github</a>
+              <a className="aboutme__container_description-github" href="https://github.com/Korzyukova" target="_blank" rel="noreferrer">Github</a>
             </div>
             <img className="aboutme__container_description-avatar" alt="cat" src={cat} />
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

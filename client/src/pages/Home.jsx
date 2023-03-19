@@ -11,8 +11,8 @@ import Footer from '../components/Footer';
 
 function Home() {
   return (
-    <div>
-      <Header />
+    <main>
+      <Header color />
       <Promo />
       <Navigation links={{
         link1: '#about',
@@ -25,7 +25,7 @@ function Home() {
       <AboutMe />
       <Portfolio />
       <Footer />
-    </div>
+    </main>
   );
 }
 

@@ -5,3 +5,7 @@
     border: 0;
     background-color: white;
 }
+.searchform__container_bar-button:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }

@@ -11,13 +11,13 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div className="navigation">
+      <section className="navigation">
         <div className="navigation__links">
           <a className="navigation__link" href={this.links.link1}>About</a>
           <a className="navigation__link" href={this.links.link2}>Technologies</a>
           <a className="navigation__link" href={this.links.link3}>Student</a>
         </div>
-      </div>
+      </section>
     );
   }
 }
