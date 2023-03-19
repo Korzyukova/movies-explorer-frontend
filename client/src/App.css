@@ -25,7 +25,7 @@
 @import url(./blocks/header/__hamburger/header__hamburger_menu-cross.css);
 @import url(./blocks/header/__hamburger/header__hamburger_shade.css);
 @import url(./blocks/header/__hamburger/header__hamburger_link.css);
-
+@import url(./blocks/header/__hamburger/header__hamburger_menu-cross_image.css);
 
 @import url(./blocks/promo/promo.css);
 @import url(./blocks/promo/__logo/promo__logo.css);

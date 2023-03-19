@@ -52,10 +52,10 @@ class Header extends React.Component {
           )}
         {
             hamburgerOpen && (
-              <>
+              <div className="header__hamburger_menu-container">
                 <div className="header__hamburger_menu">
                   <button className="header__hamburger_menu-cross" onClick={() => { this.setState({ hamburgerOpen: false }); }} type="button">
-                    <img className="header__hamburger_menu-cross" src={bigcross} alt="big cross" />
+                    <img className="header__hamburger_menu-cross_image" src={bigcross} alt="big cross" />
                   </button>
                   <ul className="header__hamburger_menu-list">
                     <li className="header__hamburger_menu-listitem"><a className="header__hamburger_link" href="/">Main page</a></li>
@@ -67,7 +67,7 @@ class Header extends React.Component {
                 </div>
                 <div className="header__hamburger_shade" />
 
-              </>
+              </div>
             )
           }
       </div>
