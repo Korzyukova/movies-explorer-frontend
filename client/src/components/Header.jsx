@@ -17,7 +17,7 @@ class Header extends React.Component {
   render() {
     const { hamburgerOpen } = this.state;
     return (
-      <div className={`header__container ${this.color ? 'header__container_color' : ''}`}>
+      <div className={`header ${this.color ? 'header-color' : ''}`}>
         {this.user
           ? (
             <header className="header__movies">
@@ -40,7 +40,7 @@ class Header extends React.Component {
             </header>
           )
           : (
-            <header className="header">
+            <header className="header__home">
               <a href="/">
                 <img className="header__logo" alt="my logo green circle" src={logo} />
               </a>

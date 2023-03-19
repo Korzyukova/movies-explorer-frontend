@@ -1,9 +1,4 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  /* background-color: #073042; */
-  height: 74px;
-  width: 89vw;
+    display: flex;
+    justify-content: center;
 }
