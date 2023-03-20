@@ -6,26 +6,31 @@ class Portfolio extends React.Component {
     return (
       <section className="portfolio">
         <div className="portfolio__container">
-          <p className="portfolio__container_header">Portfolio</p>
+          <p className="portfolio__container-header">Portfolio</p>
+          <ul className="portfolio__container-list">
+            <li>
+              <a className="portfolio__container-site-arrow" href="https://korzyukova.github.io/how-to-learn" target="_blank" rel="noreferrer">
+                <p className="portfolio__container-site">Static site</p>
+                <img className="portfolio__container-arrow" alt="arrow" src={arrow} />
+              </a>
 
-          <a className="portfolio__container_site-arrow" href="https://korzyukova.github.io/how-to-learn">
-            <p className="portfolio__container_site">Static site</p>
-            <img className="portfolio__container_arrow" alt="arrow" src={arrow} />
-          </a>
+              <div className="portfolio__container-line" />
+            </li>
+            <li>
+              <a className="portfolio__container-site-arrow" href="https://korzyukova.github.io/russian-travel/" target="_blank" rel="noreferrer">
+                <p className="portfolio__container-site">Adaptive site</p>
+                <img className="portfolio__container-arrow" alt="arrow" src={arrow} />
+              </a>
 
-          <div className="portfolio__container_line" />
-
-          <a className="portfolio__container_site-arrow" href="https://korzyukova.github.io/russian-travel/">
-            <p className="portfolio__container_site">Adaptive site</p>
-            <img className="portfolio__container_arrow" alt="arrow" src={arrow} />
-          </a>
-
-          <div className="portfolio__container_line" />
-
-          <a className="portfolio__container_site-arrow" href="https://korzyukova.github.io/mesto/">
-            <p className="portfolio__container_site">Single page application (SPA)</p>
-            <img className="portfolio__container_arrow" alt="arrow" src={arrow} />
-          </a>
+              <div className="portfolio__container-line" />
+            </li>
+            <li>
+              <a className="portfolio__container-site-arrow" href="https://korzyukova.github.io/mesto/" target="_blank" rel="noreferrer">
+                <p className="portfolio__container-site">Single page application (SPA)</p>
+                <img className="portfolio__container-arrow" alt="arrow" src={arrow} />
+              </a>
+            </li>
+          </ul>
 
         </div>
       </section>

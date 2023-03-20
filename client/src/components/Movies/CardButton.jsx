@@ -17,13 +17,13 @@ class CardButton extends React.Component {
   render() {
     return (
       this.savedMovies ? (
-        <button className="photo-grid__likeme_button" type="submit">
-          <img className="photo-grid__likeme_heart" src={cross} alt="heart" />
-        </button>
+        <span className="photo-grid__likeme-button">
+          <img className="photo-grid__likeme-heart" src={cross} alt="heart" />
+        </span>
       ) : (
-        <button className="photo-grid__likeme_button" type="submit">
-          <img className="photo-grid__likeme_heart" src={this.liked ? like : nolike} alt="heart" />
-        </button>
+        <span className="photo-grid__likeme-button">
+          <img className="photo-grid__likeme-heart" src={this.liked ? like : nolike} alt="heart" />
+        </span>
       )
 
     );

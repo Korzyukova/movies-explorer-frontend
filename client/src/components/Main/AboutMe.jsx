@@ -6,14 +6,14 @@ class AboutMe extends React.Component {
     return (
       <section className="aboutme" id="aboutme">
         <div className="aboutme__container">
-          <p className="aboutme__container_name">Student</p>
-          <div className="aboutme__container_line" />
+          <p className="aboutme__container-name">Student</p>
+          <div className="aboutme__container-line" />
 
-          <div className="aboutme__container_description">
-            <div className="aboutme__container_description-column">
-              <p className="aboutme__container_description-name">Tatiana Korzyukova</p>
-              <p className="aboutme__container_description-profession">Web developer, NY, NY.</p>
-              <p className="aboutme__container_description-story">
+          <div className="aboutme__container-description">
+            <div className="aboutme__container-description-column">
+              <p className="aboutme__container-description-name">Tatiana Korzyukova</p>
+              <p className="aboutme__container-description-profession">Web developer, NY, NY.</p>
+              <div className="aboutme__container-description-story">
                 I am a software engineer with a passion for frontend technologies.
                 I transitioned into software engineering because I wanted to use
                 my mathematic skills and education to solve real world problems.
@@ -29,10 +29,10 @@ class AboutMe extends React.Component {
                     interested in marine biology since I was a teenager.
                   </li>
                 </ul>
-              </p>
-              <a className="aboutme__container_description-github" href="https://github.com/Korzyukova" target="_blank" rel="noreferrer">Github</a>
+              </div>
+              <a className="aboutme__container-description-github" href="https://github.com/Korzyukova" target="_blank" rel="noreferrer">Github</a>
             </div>
-            <img className="aboutme__container_description-avatar" alt="cat" src={cat} />
+            <img className="aboutme__container-description-avatar" alt="cat" src={cat} />
           </div>
         </div>
       </section>

@@ -7,27 +7,27 @@ class Signin extends React.Component {
       <section className="signup">
         <div className="signup__container">
           <a href="/">
-            <img className="signup__container_logo" alt="my logo green circle" src={logo} />
+            <img className="signup__container-logo" alt="my logo green circle" src={logo} />
           </a>
-          <h1 className="signup__container_header">Welcome back!</h1>
+          <h1 className="signup__container-header">Welcome back!</h1>
 
-          <form className="signup__container_form">
+          <form className="signup__container-form">
 
-            <h1 className="signup__container_input-name">E-mail</h1>
+            <h1 className="signup__container-input-name">E-mail</h1>
             <input
-              className="signup__container_input"
+              className="signup__container-input"
               placeholder="Email"
               type="email"
             />
 
-            <h1 className="signup__container_input-name">Password</h1>
+            <h1 className="signup__container-input-name">Password</h1>
             <input
-              className="signup__container_input"
+              className="signup__container-input"
               placeholder="Password"
               type="password"
             />
           </form>
-          <button className="signup__container_button-signin" type="submit">
+          <button className="signup__container-button-signin" type="submit">
             Sign In
           </button>
           <div className="signup__bottom">

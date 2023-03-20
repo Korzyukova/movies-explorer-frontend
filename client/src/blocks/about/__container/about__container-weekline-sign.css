@@ -1,0 +1,8 @@
+.about__container-weekline-sign {
+  color: #A0A0A0;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}

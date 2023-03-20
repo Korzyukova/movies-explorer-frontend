@@ -1,0 +1,33 @@
+.signup__container-input {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  width: 32vw;
+  height: 46px;
+  border: 0;
+  background: #F9F9F9;
+  border-radius: 8px;
+  outline: none;
+  text-indent: 20px;
+}
+
+@media (max-width: 900px) {
+  .signup__container-input {
+    width: 51vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .signup__container-input {
+    width: 81vw;
+  }
+}
+
+.signup__container-input input {
+  background-color: #F9F9F9;
+}
+
+.signup__container-input::placeholder {
+  background-color: #F9F9F9;
+  text-indent: 20px;
+}

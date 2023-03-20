@@ -16,7 +16,7 @@ class movieCard extends React.Component {
         <img
           className="photo-grid__item"
           src={this.movie.img}
-          alt={this.movie.alt}
+          alt={this.movie.title}
         />
         <div className="photo-grid__bottom">
           <h2 className="photo-grid__name">{this.movie.title}</h2>

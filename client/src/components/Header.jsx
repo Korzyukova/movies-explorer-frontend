@@ -25,12 +25,12 @@ class Header extends React.Component {
                 <img className="header__logo" alt="my logo green circle" src={logo} />
               </a>
               <div className="header__links">
-                <a className="header__links_movies" href="/movies">Movies</a>
-                <a className="header__links_saved" href="/saved-movies">Saved movies</a>
-                <a className="header__links_account" href="/profile">
+                <a className="header__links-movies" href="/movies">Movies</a>
+                <a className="header__links-saved" href="/saved-movies">Saved movies</a>
+                <a className="header__links-account" href="/profile">
                   <p>Account</p>
-                  <div className="header__links_account-around-pic">
-                    <img className="header__links_account-pic" alt="schematic human" src={account} />
+                  <div className="header__links-accountpicaround">
+                    <img className="header__links-accountpic" alt="schematic human" src={account} />
                   </div>
                 </a>
               </div>
@@ -45,8 +45,8 @@ class Header extends React.Component {
                 <img className="header__logo" alt="my logo green circle" src={logo} />
               </a>
               <div className="header__links header__links_on">
-                <a className="header__links_signup" href="/signup">Sign Up</a>
-                <a className="header__links_login" href="signin">Sign In</a>
+                <a className="header__links-signup" href="/signup">Sign Up</a>
+                <a className="header__links-login" href="signin">Sign In</a>
               </div>
             </header>
           )}

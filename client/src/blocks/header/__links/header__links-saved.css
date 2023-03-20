@@ -1,0 +1,20 @@
+.header__links-saved {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; */
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.header__links-saved:hover {
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}

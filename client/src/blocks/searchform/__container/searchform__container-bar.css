@@ -1,0 +1,13 @@
+.searchform__container-bar {
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+    align-self: center;
+    width: 100%;
+    min-width: 200px;
+    max-width: 932px;
+    border: 2px solid #E8E8E8;
+}

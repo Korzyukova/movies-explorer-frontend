@@ -21,9 +21,9 @@ class SearchForm extends React.Component {
     return (
       <section className="searchform">
         <div className="searchform__container">
-          <form className="searchform__container_bar">
+          <form className="searchform__container-bar">
             <input
-              className="searchform__container_bar-input"
+              className="searchform__container-bar-input"
               type="search"
               id="search"
               name="search"
@@ -31,19 +31,19 @@ class SearchForm extends React.Component {
               autoComplete="off"
               required
             />
-            <button className="searchform__container_bar-button" type="submit">
-              <img className="searchform__container_bar-pic" src={find} alt="magnifying glass" />
+            <button className="searchform__container-bar-button" type="submit">
+              <img className="searchform__container-bar-pic" src={find} alt="magnifying glass" />
             </button>
           </form>
-          <div className="searchform__container_short">
-            <p className="searchform__container_short-sigh">Short films</p>
-            <button className="searchform__container_button" type="button" onClick={onClick}>
+          <div className="searchform__container-short">
+            <p className="searchform__container-short-sign">Short films</p>
+            <button className="searchform__container-button" type="button" onClick={onClick}>
               { tumblerIsOpen
                 ? (
-                  <img className="searchform__container_tumbler" src={tumbler} alt="tumbler on" />
+                  <img className="searchform__container-tumbler" src={tumbler} alt="tumbler on" />
                 )
                 : (
-                  <img className="searchform__container_tumbler" src={tumbleroff} alt="tumbler off" />
+                  <img className="searchform__container-tumbler" src={tumbleroff} alt="tumbler off" />
                 )}
             </button>
           </div>

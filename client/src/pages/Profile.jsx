@@ -9,7 +9,7 @@ class Profile extends React.Component {
         <section className="profile">
 
           <div className="profile__container">
-            <h1 className="profile_header">Hello,Tatiana!</h1>
+            <h1 className="profile__header">Hello,Tatiana!</h1>
 
             <div className="profile__data profile__data-name">
               <p>Name</p>

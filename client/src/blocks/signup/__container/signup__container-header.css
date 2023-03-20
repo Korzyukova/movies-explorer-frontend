@@ -1,0 +1,14 @@
+.signup__container-header {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+@media (max-width: 340px) {
+    .signup__container-header {
+      width: 70vw;
+    }
+  }

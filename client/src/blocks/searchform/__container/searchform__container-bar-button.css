@@ -1,0 +1,11 @@
+.searchform__container-bar-button {
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+.searchform__container_bar-button:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }

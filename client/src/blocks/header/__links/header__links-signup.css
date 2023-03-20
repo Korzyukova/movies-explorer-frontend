@@ -1,0 +1,11 @@
+.header__links-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    ;
+}

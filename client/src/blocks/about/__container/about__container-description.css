@@ -1,0 +1,12 @@
+.about__container-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+@media (max-width: 500px) {
+    .about__container-description {
+        flex-direction: column;
+    }
+}

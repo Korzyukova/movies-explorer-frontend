@@ -18,12 +18,12 @@ class HeaderMovies extends React.Component {
           <img className="header__logo" alt="my logo green circle" src={logo} />
         </a>
         <div className="header__links">
-          <a className="header__links_movies" href={links1}>Movies</a>
-          <a className="header__links_saved" href={links2}>Saved movies</a>
-          <a className="header__links_account" href={links3}>
+          <a className="header__links-movies" href={links1}>Movies</a>
+          <a className="header__links-saved" href={links2}>Saved movies</a>
+          <a className="header__links-account" href={links3}>
             <p>Account</p>
-            <div className="header__links_account-around-pic">
-              <img className="header__links_account-pic" alt="schematic human" src={account} />
+            <div className="header__links-accountpicaround">
+              <img className="header__links-accountpic" alt="schematic human" src={account} />
             </div>
           </a>
         </div>

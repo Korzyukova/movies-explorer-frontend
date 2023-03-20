@@ -1,0 +1,14 @@
+.searchform__container-tumbler {
+    margin: 0;
+    padding: 0;
+    margin-left: 2.5vw;
+    width: 36px;
+    height: 20px;
+    align-self: center;
+}
+
+@media (max-width: 1253px) {
+    .searchform__container-tumbler {
+        margin-left: 1.5vw;
+    }
+}
