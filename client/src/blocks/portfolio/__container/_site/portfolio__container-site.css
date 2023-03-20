@@ -1,0 +1,15 @@
+.portfolio__container-site {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+@media (max-width: 500px) {
+    .portfolio__container-site {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}

@@ -1,0 +1,18 @@
+.notfound_link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #3456F3;
+    margin-top: 184px;
+    margin-bottom: 60px;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .notfound_link {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.52px;
+        margin-top: 284px;
+    }
+}

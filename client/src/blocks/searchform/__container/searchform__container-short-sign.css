@@ -1,0 +1,18 @@
+.searchform__container-short-sign {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    align-self: center;
+}
+
+@media (max-width: 1220px) {
+    .searchform__container-short-sign {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1210px) {
+    .searchform__container-short-sign {
+        font-size: 13px;
+    }
+}

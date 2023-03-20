@@ -1,0 +1,17 @@
+.header__links {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+@media (max-width: 768px) {
+    .header__links {
+        display: none;
+    }
+
+    .header__links_on {
+        display: flex;
+    }
+}

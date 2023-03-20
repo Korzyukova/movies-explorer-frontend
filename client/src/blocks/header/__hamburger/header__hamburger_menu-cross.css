@@ -1,0 +1,16 @@
+.header__hamburger_menu-cross {
+    background: white;
+    border: none;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 15px;
+    right: 7.5vw;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 500px) {
+    .header__hamburger_menu-cross {
+      right: 5.5vw;
+    }
+  }

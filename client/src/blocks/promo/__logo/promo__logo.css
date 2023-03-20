@@ -1,0 +1,22 @@
+.promo__logo {
+  margin: 0;
+  padding: 0;
+  height: 310px;
+  margin-top: 77px;
+}
+
+@media (max-width: 768px) {
+  .promo__logo {
+    margin: 0;
+    padding: 0;
+    height: 41vh;
+  }
+}
+
+@media (max-width: 320px) {
+  .promo__logo {
+    margin: 0;
+    padding: 0;
+    height: 36vh;
+  }
+}

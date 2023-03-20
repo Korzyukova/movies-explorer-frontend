@@ -1,0 +1,7 @@
+.navigation__links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}

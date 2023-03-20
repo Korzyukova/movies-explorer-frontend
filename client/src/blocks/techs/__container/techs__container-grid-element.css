@@ -1,0 +1,18 @@
+.techs__container-grid-element {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: center;
+    background-color: #E8E8E8;
+    height: 60px;
+    border-radius: 10px;
+    max-width: 90px;
+    width: 100%;
+}

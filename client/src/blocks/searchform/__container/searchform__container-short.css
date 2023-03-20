@@ -1,0 +1,14 @@
+.searchform__container-short {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 1210px) {
+    .searchform__container-short {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top: 38px;
+    }
+}

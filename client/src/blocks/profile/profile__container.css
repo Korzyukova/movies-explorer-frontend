@@ -1,0 +1,15 @@
+.profile__container {
+  width: 32vw;
+}
+
+@media (max-width: 768px) {
+  .profile__container {
+    width: 53vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .profile__container {
+    width: 81vw;
+  }
+}

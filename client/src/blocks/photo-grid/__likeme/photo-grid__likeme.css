@@ -1,0 +1,7 @@
+.photo-grid__likeme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+}
